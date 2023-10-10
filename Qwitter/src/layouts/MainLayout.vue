@@ -5,11 +5,17 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title class="text-white-bold">
+        <q-toolbar-title class="text-white-bold gt-md">
         Qwitter
         </q-toolbar-title>
 
-        <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
+        <q-icon 
+        class="q-pa-md"
+        name="fa-solid fa-dove"
+        size="md"
+        color="primary"
+        />
+        <!-- <q-btn dense flat round icon="menu" @click="toggleRightDrawer" /> -->
       </q-toolbar>
     </q-header>
 
