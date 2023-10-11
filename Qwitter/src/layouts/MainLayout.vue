@@ -10,7 +10,7 @@
         </q-toolbar-title>
 
         <q-icon 
-        class="q-pa-md"
+        class="q-pa-md lt-md absolute-center "
         name="fa-solid fa-dove"
         size="md"
         color="primary"
@@ -34,7 +34,7 @@
       <q-list>
 
       <q-item
-        to="/"
+        to="/Pagehome"
         clickable
         v-ripple>
         <q-item-section avatar>
@@ -44,7 +44,7 @@
         <q-item-section class="text-h6 text-weight-bold">Home</q-item-section>
       </q-item>   
         <q-item
-        to="/about"
+        to="/PageAbout"
           clickable
           v-ripple>
           <q-item-section avatar>
@@ -140,3 +140,4 @@ export default {
   }
 }
 </script>
+
